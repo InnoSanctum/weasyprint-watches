@@ -1,4 +1,4 @@
-FROM python:3.13-alpine3.18
+FROM python:3.7-alpine3.18
 
 RUN apk upgrade --no-cache && apk add --no-cache uwsgi uwsgi-python3
 
